@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Adedoyin Adebola Samuel</title>
+<meta name="description" content="Live projects by Adedoyin Adebola Samuel: an AI email threat detector, an e-commerce plant shop and a thrift store platform, with source links.">
+<meta property="og:title" content="Projects | Adedoyin Adebola Samuel">
+<meta property="og:description" content="Three projects by Adedoyin Adebola Samuel with descriptions, tools used and links to the live pages and source code.">
+<meta name="theme-color" content="#0a1222">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="js/main.js" defer></script>
+<script src="js/projects.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hd"><div class="wrap bar">
+<a class="brand" href="index.html"><span class="logo" aria-hidden="true">AS</span><span>Adedoyin Adebola Samuel</span></a>
+<button id="menu" class="btn ghost menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<button id="theme" class="btn ghost" type="button">Light mode</button>
+</div></header>
+<main id="main">
+<section class="s wrap"><h1>Projects</h1><p class="lead">Three live projects you can open and use, plus the research paper and the course builds behind this site.</p>
+<div class="filters" role="group" aria-label="Filter projects"><button class="btn" type="button" data-filter="all" aria-pressed="true">All</button><button class="btn" type="button" data-filter="ai" aria-pressed="false">Security &amp; AI</button><button class="btn" type="button" data-filter="web" aria-pressed="false">Web</button>
+<div class="f"><label for="pq">Search projects</label><input id="pq" type="search" autocomplete="off"></div></div>
+<p id="pcount" class="pcount" role="status"></p>
+<div class="proj">
+<article class="card pc" data-cat="ai"><figure class="shot"><img src="assets/images/skills/email-detector.jpg" width="1440" height="668" alt="AI Email Threat Detection System live app showing six feature cards and the email analysis demo form"></figure>
+<div><p class="meta2"><span class="live">&#9679; Live</span><span>Security &amp; AI</span></p><h2>AI Email Threat Detection System</h2><p>AI-powered email threat detection using NLP (BERT). It connects to Gmail through the Gmail API with OAuth 2.0, flags threats on a real-time dashboard and improves through a reinforcement learning feedback loop.</p>
+<ul class="pills"><li>Python</li><li>Flask</li><li>NLP (BERT)</li><li>Gmail API</li><li>OAuth 2.0</li></ul>
+<div class="row" style="margin-top:0"><a class="btn pri" href="https://email-threat-detector.onrender.com/" target="_blank" rel="noopener noreferrer">Open live app</a><a class="btn" href="https://github.com/DEDOYIN567/email-threat-detector" target="_blank" rel="noopener noreferrer">View source</a></div></div></article>
+<article class="card pc" data-cat="web"><figure class="shot"><img src="assets/images/skills/green-haven.jpg" width="960" height="445" loading="lazy" alt="Green Haven Plant Shop home page with the headline Bring Nature Into Your Home"></figure>
+<div><p class="meta2"><span class="live">&#9679; Live</span><span>Web</span></p><h2>Green Haven Plant Shop</h2><p>E-commerce plant shop with a product catalog, shopping cart, authentication and Google Maps store integration, built with HTML, CSS and JavaScript.</p>
+<ul class="pills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Google Maps</li></ul>
+<div class="row" style="margin-top:0"><a class="btn pri" href="https://greenhavenco.netlify.app/" target="_blank" rel="noopener noreferrer">Open live site</a><a class="btn" href="https://github.com/DEDOYIN567" target="_blank" rel="noopener noreferrer">GitHub profile</a></div></div></article>
+<article class="card pc" data-cat="web"><figure class="shot"><img src="assets/images/skills/thrift-store.jpg" width="960" height="445" loading="lazy" alt="Thrift Stores home page with the headline new Collections for everyone"></figure>
+<div><p class="meta2"><span class="live">&#9679; Live</span><span>Web</span></p><h2>Thrift Store Platform</h2><p>Product browsing, category filtering and a responsive, mobile-first layout, built with HTML, CSS and JavaScript.</p>
+<ul class="pills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive</li></ul>
+<div class="row" style="margin-top:0"><a class="btn pri" href="https://thriftstor.netlify.app/#/" target="_blank" rel="noopener noreferrer">Open live site</a></div></div></article>
+</div>
+<p id="pnone" class="pcount" hidden>No projects match. Clear the search or choose All.</p></section>
+<section class="s wrap"><h2>More work</h2><ul class="more">
+<li><b>MTN Nigeria risk assessment</b><p>Published research: a quantitative cybersecurity risk assessment using NIST SP 800-30, ISO/IEC 27005 and FAIR, with 18 risk scenarios and an eight-point remediation roadmap.</p><nav aria-label="MTN Nigeria risk assessment links"><a href="https://adedoyin-adebola.vercel.app/files/MTN_Nigeria_Cybersecurity_Risk_Assessment.pdf" target="_blank" rel="noopener noreferrer">Read the paper (PDF)</a></nav></li>
+<li><b>Academic Planner</b><p>Built for this course: task statuses, due dates, email reminders through EmailJS and calendar alerts.</p><nav aria-label="Academic Planner links"><a href="planner.html">Open</a><a href="js/planner.js">Source</a></nav></li>
+<li><b>Contact form</b><p>Built for this course: checks empty fields, email format and digits-only phone numbers, and delivers through Formspree.</p><nav aria-label="Contact form links"><a href="contact.html">Open</a><a href="js/contact.js">Source</a></nav></li>
+<li><b>This portfolio</b><p>Five responsive pages in plain HTML, CSS and JavaScript.</p><nav aria-label="Portfolio links"><a href="css/styles.css">Stylesheet</a><a href="js/main.js">Source</a></nav></li>
+</ul></section>
+</main>
+<footer class="ft"><div class="wrap ftg">
+<div><p class="kicker">Adedoyin Adebola Samuel</p><p>Full-stack developer and cybersecurity professional in Abuja, building secure, innovative software with end-to-end encryption and privacy designed in.</p></div>
+<div><p class="kicker">Pages</p><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><p class="kicker">Get in touch</p><p>Questions, feedback and collaboration ideas are welcome through the contact form.</p><a href="contact.html">Send a message →</a></div>
+<nav class="social" aria-label="Social links"><a href="https://github.com/DEDOYIN567" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg><span>GitHub</span></a><a href="https://linkedin.com/in/adedoyin-adebola" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg><span>LinkedIn</span></a><a href="contact.html" aria-label="Contact" title="Contact"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6.5L21 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span>Contact</span></a></nav>
+<p class="fine">© <span id="yr">2026</span> Adedoyin Adebola Samuel · Miva Open University · <a href="#top">Back to top</a></p>
+</div></footer>
+<a id="to-top" class="btn" href="#top" aria-label="Back to top" hidden>↑</a>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Risk chart with bars and a warning triangle"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><g fill="#13243f" stroke="#2a4a7a" stroke-width="2"><rect x="50" y="90" width="34" height="56"/><rect x="100" y="64" width="34" height="82"/><rect x="150" y="40" width="34" height="106"/></g>
+<rect x="150" y="40" width="34" height="106" fill="#ff5a36" fill-opacity=".85"/>
+<path d="M40 150h160" stroke="#5f86b8" stroke-width="2"/>
+<path d="M250 52l38 66h-76z" fill="none" stroke="#ff5a36" stroke-width="4" stroke-linejoin="round"/><path d="M250 76v22" stroke="#ff5a36" stroke-width="5"/><circle cx="250" cy="108" r="3.5" fill="#ff5a36"/>
+<text x="14" y="168" font-family="monospace" font-size="9" fill="#5f86b8">FAIR · NIST 800-30 · ISO 27005</text></svg>

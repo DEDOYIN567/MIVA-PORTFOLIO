@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Alert bell and response cycle arrows representing incident response"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><circle cx="160" cy="88" r="62" fill="none" stroke="#2a4a7a" stroke-width="2" stroke-dasharray="5 6"/>
+<path d="M160 26a62 62 0 0 1 58 40" fill="none" stroke="#ff5a36" stroke-width="3"/><path d="M212 58l8 10 11-8" fill="none" stroke="#ff5a36" stroke-width="3"/>
+<path d="M160 150a62 62 0 0 1-58-40" fill="none" stroke="#ff5a36" stroke-width="3"/><path d="M108 118l-8-10-11 8" fill="none" stroke="#ff5a36" stroke-width="3"/>
+<path d="M160 56c-18 0-28 14-28 32v18l-10 14h76l-10-14V88c0-18-10-32-28-32z" fill="#13243f" stroke="#ff5a36" stroke-width="3"/><circle cx="160" cy="132" r="6" fill="#ff5a36"/><path d="M160 46v10" stroke="#ff5a36" stroke-width="4"/>
+<text x="14" y="168" font-family="monospace" font-size="9" fill="#5f86b8">DETECT · CONTAIN · RECOVER</text></svg>

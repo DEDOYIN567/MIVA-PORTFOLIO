@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Compliance checklist with ticks and a shield representing security governance"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><rect x="70" y="24" width="130" height="132" rx="5" fill="#13243f" stroke="#2a4a7a" stroke-width="2"/>
+<g stroke="#2a4a7a" stroke-width="3"><path d="M110 52h72M110 86h72M110 120h72"/></g>
+<g fill="none" stroke="#ff5a36" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M84 52l6 6 11-12M84 86l6 6 11-12M84 120l6 6 11-12"/></g>
+<path d="M240 64l34 12v28c0 22-14 36-34 44-20-8-34-22-34-44V76z" fill="#101a2c" stroke="#ff5a36" stroke-width="3"/><path d="M226 104l10 10 18-20" fill="none" stroke="#ff5a36" stroke-width="4" stroke-linecap="round"/>
+<text x="14" y="168" font-family="monospace" font-size="9" fill="#5f86b8">GOVERNANCE · COMPLIANCE · ASSURANCE</text></svg>

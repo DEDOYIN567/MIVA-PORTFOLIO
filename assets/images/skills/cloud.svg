@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Cloud connected to servers representing cloud computing"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><path d="M100 98a28 28 0 0 1 6-55 38 38 0 0 1 72-6 34 34 0 0 1 40 30 24 24 0 0 1-6 48z" transform="translate(10 4)" fill="#13243f" stroke="#ff5a36" stroke-width="3"/>
+<g stroke="#2a4a7a" stroke-width="2"><path d="M110 108v26M160 108v26M210 108v26"/></g>
+<g fill="#13243f" stroke="#2a4a7a" stroke-width="2"><rect x="92" y="134" width="36" height="22" rx="3"/><rect x="142" y="134" width="36" height="22" rx="3"/><rect x="192" y="134" width="36" height="22" rx="3"/></g>
+<g fill="#ff5a36"><circle cx="102" cy="145" r="3"/><circle cx="152" cy="145" r="3"/><circle cx="202" cy="145" r="3"/></g>
+<text x="14" y="168" font-family="monospace" font-size="9" fill="#5f86b8">AWS · CLOUD PRACTITIONER</text></svg>

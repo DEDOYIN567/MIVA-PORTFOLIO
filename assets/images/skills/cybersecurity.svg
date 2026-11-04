@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Shield with padlock representing cybersecurity"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><circle cx="160" cy="90" r="74" fill="none" stroke="#2a4a7a" stroke-dasharray="4 6"/><circle cx="160" cy="90" r="50" fill="none" stroke="#2a4a7a" stroke-dasharray="4 6"/>
+<path d="M160 28l52 18v40c0 33-22 56-52 68-30-12-52-35-52-68V46z" fill="#13243f" stroke="#ff5a36" stroke-width="3"/>
+<rect x="139" y="84" width="42" height="34" rx="4" fill="#ff5a36"/><path d="M147 84v-10a13 13 0 0 1 26 0v10" fill="none" stroke="#ff5a36" stroke-width="5"/><circle cx="160" cy="98" r="5" fill="#101a2c"/><rect x="158" y="100" width="4" height="10" fill="#101a2c"/>
+<g fill="#ff5a36"><circle cx="48" cy="40" r="4"/><circle cx="276" cy="140" r="4"/><circle cx="270" cy="38" r="3"/></g>
+<g font-family="monospace" font-size="9" fill="#5f86b8"><text x="14" y="168">THREAT / RISK / IR</text><text x="226" y="168">NIST · ISO 27005</text></g></svg>

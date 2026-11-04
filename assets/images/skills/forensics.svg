@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Magnifying glass over a file and fingerprint representing digital forensics"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><rect x="60" y="30" width="96" height="120" rx="4" fill="#13243f" stroke="#2a4a7a" stroke-width="2"/>
+<g stroke="#2a4a7a" stroke-width="3"><path d="M74 52h56M74 66h68M74 80h44M74 94h60M74 108h40"/></g>
+<g fill="none" stroke="#ff5a36" stroke-width="2.5"><circle cx="200" cy="84" r="46" fill="#101a2c" fill-opacity=".85"/>
+<path d="M200 56c-16 0-26 12-26 26M200 64c-11 0-18 8-18 18v12M200 72c-6 0-10 4-10 10v14c0 8-3 12-6 16M200 56c16 0 26 12 26 26v8M200 64c11 0 18 8 18 18v10c0 10 3 14 5 18M200 72c6 0 10 4 10 10v12M200 80v22c0 8 3 14 8 18"/></g>
+<path d="M233 118l40 40" stroke="#ff5a36" stroke-width="10" stroke-linecap="round"/>
+<g font-family="monospace" font-size="9" fill="#5f86b8"><text x="14" y="168">EVIDENCE · CUSTODY · REPORT</text></g></svg>

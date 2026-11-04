@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Open research paper with a pen representing research and technical writing"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><path d="M60 40h90a10 10 0 0 1 10 10v100a10 10 0 0 0-10-10H60z" fill="#13243f" stroke="#2a4a7a" stroke-width="2"/>
+<path d="M260 40h-90a10 10 0 0 0-10 10v100a10 10 0 0 1 10-10h90z" fill="#13243f" stroke="#2a4a7a" stroke-width="2"/>
+<g stroke="#2a4a7a" stroke-width="3"><path d="M76 62h66M76 78h66M76 94h50M178 62h66M178 78h66"/></g>
+<rect x="180" y="96" width="62" height="30" fill="none" stroke="#ff5a36" stroke-width="2.5"/><path d="M186 120l14-12 12 8 14-14 10 8" fill="none" stroke="#ff5a36" stroke-width="2.5"/>
+<text x="14" y="168" font-family="monospace" font-size="9" fill="#5f86b8">RESEARCH · PAPERS · REPORTING</text></svg>

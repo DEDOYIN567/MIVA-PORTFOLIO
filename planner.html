@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Academic Planner | Adedoyin Adebola Samuel</title>
+<meta name="description" content="Plan tasks with due dates and priorities. Add, complete, delete and filter. Saved in your browser only.">
+<meta property="og:title" content="Academic Planner | Adedoyin Adebola Samuel">
+<meta property="og:description" content="Plan tasks with due dates and priorities. Add, complete, delete and filter. Saved in your browser only.">
+<meta name="theme-color" content="#0a1222">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="js/main.js" defer></script>
+<script src="js/planner.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="hd"><div class="wrap bar">
+<a class="brand" href="index.html"><span class="logo" aria-hidden="true">AS</span><span>Adedoyin Adebola Samuel</span></a>
+<button id="menu" class="btn ghost menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html" aria-current="page">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<button id="theme" class="btn ghost" type="button">Light mode</button>
+</div></header>
+<main id="main">
+<section class="s wrap"><p class="kicker">Tool</p><h1>Academic planner</h1>
+<p class="lead">Plan your coursework in one place. Add assignments, readings, revision sessions and deadlines, move each task through To do, In progress, Review and Done, and get a reminder when it matters. Your tasks are stored in this browser, and nothing leaves it until you press Email.</p>
+<dl class="stats"><div><dt>To do</dt><dd id="s-todo">0</dd></div><div><dt>In progress</dt><dd id="s-doing">0</dd></div><div><dt>Review</dt><dd id="s-review">0</dd></div><div><dt>Done</dt><dd id="s-done">0</dd></div><div><dt>Overdue</dt><dd id="s-over">0</dd></div></dl>
+<div class="prog" aria-hidden="true"><span id="t-bar"></span></div>
+<div class="plan"><div class="side">
+<form id="task-form" class="panel" novalidate>
+<h2>Add a task</h2><p class="meta" style="margin:-6px 0 0">Give it a short title, link it to a course and set a due date so reminders can be scheduled.</p>
+<div><label for="t-title">Task</label><input id="t-title" autocomplete="off" aria-describedby="t-count t-err"><div class="meta" id="t-count">0/120</div><p id="t-err" class="err"></p></div>
+<div class="two"><div><label for="t-course">Course</label><input id="t-course" maxlength="12" placeholder="e.g. MTH 101" autocomplete="off"></div><div><label for="t-pri">Priority</label><select id="t-pri"><option>Low</option><option selected>Medium</option><option>High</option></select></div></div>
+<div class="two"><div><label for="t-type">Type</label><select id="t-type"><option>Assignment</option><option>Reading</option><option>Revision</option><option>Deadline</option></select></div>
+<div><label for="t-due">Due date</label><input id="t-due" type="date" aria-describedby="d-err"><p id="d-err" class="err"></p></div></div>
+<button class="btn pri" type="submit">Add task</button>
+</form>
+<div class="panel"><h2>Reminder email</h2><p class="meta" style="margin:-2px 0 14px">Enter the address that should receive reminders, for example your Gmail. It is used when you press Email on a task or Email me my open tasks.</p><label for="t-mail">Your email address</label><input id="t-mail" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="m-err"><p id="m-err" class="err"></p><p id="m-note" class="meta" style="margin:0"></p></div>
+</div>
+<div>
+<div class="row" style="margin:0" role="group" aria-label="Filter tasks"><button class="btn" type="button" data-f="all" aria-pressed="true">All</button><button class="btn" type="button" data-f="todo" aria-pressed="false">To do</button><button class="btn" type="button" data-f="doing" aria-pressed="false">In progress</button><button class="btn" type="button" data-f="review" aria-pressed="false">Review</button><button class="btn" type="button" data-f="done" aria-pressed="false">Done</button></div>
+<p id="t-alert" hidden role="status"></p>
+<ul id="t-list" class="tasks"></ul>
+<div class="row" style="margin:0"><button id="t-digest" class="btn" type="button">Email me my open tasks</button><button id="t-clear" class="btn ghost" type="button">Clear completed</button></div>
+<p id="t-note" class="meta" role="status"></p>
+</div></div></section>
+<section class="s wrap"><h2>How the planner works</h2>
+<ol class="steps">
+<li><b>Add a task</b><p>Enter a title, course, type, priority and due date. Overdue tasks are flagged automatically.</p></li>
+<li><b>Track progress</b><p>Move each task through To do, In progress, Review and Done. The checkbox and the status menu stay in sync.</p></li>
+<li><b>Get reminded</b><p>Press Email for a reminder in your inbox, or Calendar for an alert at 9:00 the day before the due date.</p></li>
+<li><b>Review your week</b><p>Use Email me my open tasks for a single summary of everything still to do, and Clear completed to tidy up.</p></li>
+</ol></section>
+</main>
+<footer class="ft"><div class="wrap ftg">
+<div><p class="kicker">Adedoyin Adebola Samuel</p><p>Full-stack developer and cybersecurity professional in Abuja, building secure, innovative software with end-to-end encryption and privacy designed in.</p></div>
+<div><p class="kicker">Pages</p><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><p class="kicker">Get in touch</p><p>Questions, feedback and collaboration ideas are welcome through the contact form.</p><a href="contact.html">Send a message →</a></div>
+<nav class="social" aria-label="Social links"><a href="https://github.com/DEDOYIN567" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg><span>GitHub</span></a><a href="https://linkedin.com/in/adedoyin-adebola" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg><span>LinkedIn</span></a><a href="contact.html" aria-label="Contact" title="Contact"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6.5L21 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span>Contact</span></a></nav>
+<p class="fine">© <span id="yr">2026</span> Adedoyin Adebola Samuel · Miva Open University · <a href="#top">Back to top</a></p>
+</div></footer>
+<a id="to-top" class="btn" href="#top" aria-label="Back to top" hidden>↑</a>
+</body>
+</html>

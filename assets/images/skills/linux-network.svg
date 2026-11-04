@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Server rack connected to a network of devices representing Linux and network administration"><rect width="320" height="180" fill="#101a2c"/><g stroke="#1e2d47" stroke-width="1"><path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/></g><g fill="#13243f" stroke="#2a4a7a" stroke-width="2"><rect x="40" y="28" width="100" height="26" rx="3"/><rect x="40" y="60" width="100" height="26" rx="3"/><rect x="40" y="92" width="100" height="26" rx="3"/></g>
+<g fill="#ff5a36"><circle cx="54" cy="41" r="4"/><circle cx="54" cy="73" r="4"/><circle cx="54" cy="105" r="4"/></g>
+<g stroke="#2a4a7a" stroke-width="3"><path d="M74 41h56M74 73h56M74 105h56"/></g>
+<g stroke="#ff5a36" stroke-width="2" fill="none"><path d="M140 73h40"/><path d="M180 73v-40h50M180 73h50M180 73v40h50"/></g>
+<g fill="#13243f" stroke="#ff5a36" stroke-width="2"><rect x="230" y="20" width="50" height="26" rx="3"/><rect x="230" y="60" width="50" height="26" rx="3"/><rect x="230" y="100" width="50" height="26" rx="3"/></g>
+<g font-family="monospace" font-size="11" fill="#ece9e3"><text x="40" y="146">$ systemctl status</text></g>
+<g font-family="monospace" font-size="9" fill="#5f86b8"><text x="14" y="168">SUPPORT · MONITOR · MAINTAIN</text></g></svg>
